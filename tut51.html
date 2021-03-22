@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div>
+        <ul>
+            <li>This is item-1</li>
+            <li>This is item-2</li>
+            <li>This is item-3</li>
+            <li>This is item-4</li>
+            <li>This is item-5</li>
+            <li>This is item-6</li>
+            <li>This is item-7</li>
+            <li>This is item-8</li>
+            <li>This is item-9</li>
+            <li>This is item-10</li>
+            <li>This is item-10</li>
+        </ul>
+    </div>
+    <script>
+        // if else ladders
+        let age = 10;
+        if (age > 18) {
+            console.log("You can drink alcohol");
+        }
+        else if (age == 10) {
+            console.log("You can drink milk only");
+        }
+        else {
+            console.log("You can drink water only");
+        }
+        // switch ladders
+        const cage = 45;
+        switch (cage) {
+            case 4:
+                console.log("cAge is 4");
+                break;
+            case 41:
+                console.log("cAge is 41");
+                break;
+            case 42:
+                console.log("cAge is 42");
+                break;
+
+            default:
+                console.log("cAge is 45")
+                break;
+        }
+        // primitive data types means already define data types
+        let var1 = 31;
+        let var2 = "This";
+        let var3 = true;
+        let var4 = undefined;
+        let var5 = null;
+        let var6 = false;
+
+        // object creating means we are creating our data types
+        let employe = {
+            name: "Muneeb",
+            age: 23,
+            channel: "Romen",
+            channel2: "Romen12"
+        }
+
+        console.log(employe);
+
+        // array finding in objects
+        let name = [1, 2, 3, "muneeb", true];
+        console.log(name[3]);
+        name = name.sort();
+        console.log(name);
+        name.push("This should be added");
+        console.log(name);
+    </script>
+</body>
+
+</html>
